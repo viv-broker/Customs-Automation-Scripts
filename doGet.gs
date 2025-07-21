@@ -11,17 +11,22 @@ function doGet(e) {
       output_id = '10HfUqrHUTy3lxkkzE7gn_eGRjDhrgpLxDnl9KH4JWrM';
       break;
     case "Yiqi":
-      processYiqiEntry();
+      input_id = '1ncsBHDtFkDeTazr09n60-INrOlh7SuVf5smaFhWwY7k';
+      output_id = '1wBWqoYCpvPyTNlziJR83EZ1llwbTRv6DskHLMbGHoTM';
       break;
-    case "Chen Xiao":
-      processChenXiaoEntry();
+    case "ChenXiao":
+      input_id = '1wx7cmWUEtBQBZCHDV01lrymg2pyDQIzN_W2vYrkBcaQ';
+      output_id = '1-NN89Erz0MpydxObLrL5UZ5pa7R1j-pUfWnpP1yKYXc';
       break;
     case "Jingyi":
-      processJingyiEntry();
+      input_id = '1VO8rDHSlmNprktcxysNelGmRj_eDv0e1D6-tQooNAHg';
+      output_id = '1PgFm5G1MOcOwCBEDyKujVzMVga_Z3f_RQKh_2D4st_o';
       break;
     case "Yiran":
-      processYiranEntry();
+      input_id = '1foRcsfKr2BZFaWEPanE9QU2xZqFtewKWpmEEQkJ5k9g';
+      output_id = '1xJZjMyisT7nwpp2yWkr9qn8o-NBZlO4805JVXwulIFI';
       break;
+    
     default:
       return ContentService.createTextOutput("Unknown user: " + user);
   }
